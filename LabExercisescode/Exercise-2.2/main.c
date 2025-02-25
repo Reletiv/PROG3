@@ -15,5 +15,10 @@ int main(void)
 
 void average2D(double *pD1, double *pD2)
 {
-#warning function average2D() needs to be implemented!
+   //bereken gemiddelde
+   double average = (*pD1 + *pD2) / 2.0;
+
+   *pD1 = average;
+   *pD2 = average;
+   return;
 }
