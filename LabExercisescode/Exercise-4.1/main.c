@@ -23,7 +23,7 @@
 /// ope should hold the pointer to a function tha belongs to an operation
 typedef struct
 {
-   int ope;      /// Change ope to the correct definition
+   int (*ope)(int, int);
    char name[10];
 } operation;
 
@@ -38,23 +38,24 @@ int sub(int num1, int num2);
 int mult(int num1, int num2);
 int divd(int num1, int num2);
 
-
 int main() 
 {
    int x, y, choice, result;
+
    /// Array that contains the function and information for the operations
    operation operations[4];
-   /// Replace the contents of the array below with the correct
-   /// assignments for each operation
-   ///
-   operations[0].ope = NULL;
-   strcpy(operations[0].name, "");
-   operations[1].ope = NULL;
-   strcpy(operations[1].name, "");
-   operations[2].ope = NULL;
-   strcpy(operations[2].name, "");
-   operations[3].ope = NULL;
-   strcpy(operations[3].name, "");
+
+   operations[0].ope = sum;
+   strcpy(operations[0].name, "add");
+
+   operations[1].ope = sub;
+   strcpy(operations[1].name, "subtract");
+
+   operations[2].ope = mult;
+   strcpy(operations[2].name, "multiply");
+
+   operations[3].ope = divd;
+   strcpy(operations[3].name, "devide");
 
    printf("Enter two integer numbers (on one line: ");
    scanf("%d%d", &x, &y);
