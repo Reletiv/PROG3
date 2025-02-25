@@ -1,5 +1,8 @@
 # Advanced C
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/b4b152e81db44d2e9453eb3350311701)](https://www.codacy.com/project/josokw/AdvancedC/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=josokw/AdvancedC&amp;utm_campaign=Badge_Grade_Dashboard)
+[![CodeFactor](https://www.codefactor.io/repository/github/josokw/advancedc/badge/master)](https://www.codefactor.io/repository/github/josokw/advancedc/overview/master)
+
 ## Intermediate level programming
 
 The code examples are used for teaching C programming at an intermediate level.
@@ -34,6 +37,6 @@ Some *gdb* launches are available in [launch.json](.vscode/launch.json).
 
 ## Book and excercises
 
-Theory can be found in [AdvancedCv3.0.pdf](./AdvancedCv3.0.pdf), the code as used in the exercises can be found in [BookExampleCode](./BookExampleCode).
+The related book Advanced C v2.1 is in pdf format available.
 
-Lab exercis can be found in [LabExercisesADCv3.0.pdf](./LabExercisesADCv3.0.pdf), the code as used in the exercises can be found in [LabExercisesCode](./LabeExercisesCode).
+Book exercises are partly prepared in the [BookExercises](BookExercises) subdirectory.

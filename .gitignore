@@ -1,21 +1,62 @@
-# C++ objects and libs
-*.slo
-*.lo
+# Prerequisites
+*.d
+
+# Object files
 *.o
+*.ko
+*.obj
+*.elf
+
+# Linker output
+*.ilk
+*.map
+*.exp
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
 *.a
 *.la
-*.lai
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
 *.so
 *.so.*
-*.dll
 *.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Kernel Module Compile Results
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
 
 # Qt-es
 object_script.*.Release
 object_script.*.Debug
 *_plugin_import.cpp
-/.qmake.cache
-/.qmake.stash
+.qmake.cache
+.qmake.stash
 *.pro.user
 *.pro.user.*
 *.qbs.user
@@ -27,10 +68,8 @@ qrc_*.cpp
 ui_*.h
 *.qmlc
 *.jsc
-Makefile*
+# Makefile*
 *build-*
-*.qm
-*.prl
 
 # Qt unit tests
 target_wrapper.*
@@ -45,10 +84,43 @@ target_wrapper.*
 # QtCreator CMake
 CMakeLists.txt.user*
 
-# QtCreator 4.8< compilation database
-compile_commands.json
+# GNU Makefile
+depend
+argcargv-isInt/argcargvIsInt
+arraySize/arraySize
+atexit/atexit
+atoiatof/atoiatof
+average2D/average2D
+averageDdata/averageDdata
+bool/bool
+callback/callback
+checkStrings/checkStrings
+complex/complex
+complex-tgmath/complextgmath
+deepcopy/deepcopy
+echo-argcargv-forloop/echo-argc-argv
+function-pointers/function-pointers
+hexdump/hexdump
+macros/macros
+mixedtypes/mixedtypes
+pointerArray/pointerArray
+voidPointers/voidPointers
+pointerVariables/pointerVariables
+qsort/qsort
+qsort-ints/qsort-ints
+queueCSLL/queueCSLL
+singlyLinkedList/app/singlyLinkedList
+swap/swap
+testMaxAllocation/testMaxAllocation
+multidimArrays/multidimArrays
+bitsbytes/bitsbytes
+static/static
+queueCSLL-test/queueCSLLtest
+functions/app/functions
+functions/testCatch2/testCatch2
+functions/testUnity/testUnity
+compare/compare
+checkStrings/app/checkStrings
+checkStrings/test/checkStrings-test
 
-# QtCreator local machine specific files for imported projects
-*creator.user*
-
-*_qmlcache.qrc
+BookExercises/Exercise-*/excs*

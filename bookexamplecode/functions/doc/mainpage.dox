@@ -1,0 +1,33 @@
+/*!
+
+\mainpage Compiling and executing 
+
+This application uses a set of functions found in the \p functions module.
+These functions are buggy!
+
+Use for floating point values: float, do no use double. 
+
+\section sec1 Compiling
+
+Go to the **app** dir. 
+This application can be compiled by a makefile using the make command:
+
+```
+
+make -f Makefile2
+
+```
+
+\section sec2 Executing
+
+Use the next command in the **app** dir to start the application:
+
+```
+./functions
+```
+
+The application will show some calculated data (printed to stdout).
+
+Are these calculations correct? Use unit tests.
+
+*/
