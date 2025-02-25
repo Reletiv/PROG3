@@ -22,6 +22,23 @@ int main(void)
 
 void averageDdata(double data[], int size)
 {
-#warning function averageDdata() needs to be implemented!
+   double totaal = 0.0;
+   double gemiddelde = 0.0;
+
+   // totaal uitrekenen
+   for (int i = 0; i < size; i++)
+   {
+      totaal += data[i];
+   }
+
+   // gemiddelde uitrekenen
+   gemiddelde = totaal / size;
+
+   // waarden vervangen voor gemiddelde
+   for (int i = 0; i < size; i++)
+   {
+      data[i] = gemiddelde;
+   }
+   return;
 }
 
