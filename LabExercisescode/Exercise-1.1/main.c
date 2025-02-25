@@ -22,6 +22,12 @@ int main(void)
       printStruct(&array[n]);
    }
 
+   for(int n=0; n<N_ARRAY; ++n)
+   {
+      clearStruct(&array[n]);
+      printStruct(&array[n]);
+   }
+
    return 0;
 }
 
@@ -39,14 +45,11 @@ void fillStruct(data_t *data)
 
 void printStruct(const data_t *data)
 {
-
-      // Implement function printStruct
-
+    printf("element1: %d, element2: %c\n", data->element1, data->element2);
 }
 
 void clearStruct(data_t *data)
 {
-
-      // Implement function clearStruct
-
+   data->element1 = 0;
+   data->element2 = '\0';
 }
